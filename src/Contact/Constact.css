@@ -1,0 +1,20 @@
+.contact_wrapper {
+    margin-top: 8%;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact_img {
+    background-image: url("https://images7.alphacoders.com/385/385179.jpg");
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1118px) {
+    .contact_wrapper {
+        display: block;
+    }
+    .contact_img {
+        height: 80vh;
+    }
+}

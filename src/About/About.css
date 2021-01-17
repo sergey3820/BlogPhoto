@@ -1,0 +1,188 @@
+.about_wrapper {
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.aboutImg {
+    background-image: url("https://static.1000.menu/img/articles/21113/o_1bjubhimv1kf614v615eec6kvk7n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_txt {
+    padding-top: 20%;
+    padding-left: 12%;
+    padding-right: 25%;
+    background: #F0F3F6;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about_1 {
+    font-size: 19px;
+    color: grey;
+}
+
+.about_company {
+    font-size: 19px;
+    color: grey;
+    padding-bottom: 10%;
+}
+
+.study {
+    font-size: 25px;
+    color: grey;
+    line-height: 10px;
+}
+
+.study_txt {
+    font-size: 19px;
+    color: grey;
+    padding-bottom: 10%;
+}
+
+.gift {
+    font-size: 25px;
+    color: grey;
+   line-height: 10px;
+}
+
+.gift_txt {
+    font-size: 19px;
+    color: grey;
+}
+
+.about_gift {
+    padding-bottom: 30%;
+}
+
+@media only screen and (max-width: 1118px) {
+    .name {
+        font-size: 30px;
+    }
+    .about_1 {
+        font-size: 16px;
+    }
+    .about_company {
+        font-size: 16px;
+    }
+    .study {
+        font-size: 20px;
+    }
+    .study_txt {
+        font-size: 16px;
+    }
+    .gift {
+        font-size: 20px;
+    }
+    .gift_txt {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 942px) {
+    .about_wrapper {
+        display: block;
+    }
+    .aboutImg {
+        height: 70vh;
+    }
+
+   .about_txt {
+       padding-top: 5%;
+       padding-left: 5%;
+       padding-right: 5%;
+   }
+
+   .about_gift {
+       padding-bottom: 10%;
+   }
+
+   .study_txt, .about_company {
+       padding-bottom: 5%;
+       font-size: 25px;
+   }
+   .name {
+       font-size: 50px;
+       font-weight: normal;
+   }
+   .about_1 {
+       font-size: 25px;
+   }
+
+   .study {
+       font-size: 40px;
+   }
+   .study_txt {
+       font-size: 25px;
+   }
+
+   .gift {
+       font-size: 40px;
+
+   }
+   .gift_txt {
+       font-size: 25px;
+   }
+
+}
+
+@media only screen and (max-width: 518px) {
+    .gift {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 422px) {
+    .name {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 393px) {
+
+    .name {
+        font-size: 40px;
+    }
+    .gift {
+        font-size: 25px;
+    }
+ 
+
+}
+
+@media only screen and (max-width: 361px) {
+    .study_txt, .about_company {
+        padding-bottom: 5%;
+        font-size: 18px;
+    }
+    .name {
+        font-size: 35px;
+        font-weight: normal;
+    }
+    .about_1 {
+        font-size: 18px;
+    }
+
+    .study {
+        font-size: 20px;
+    }
+    .study_txt {
+        font-size: 18px;
+    }
+
+    .gift {
+        font-size: 20px;
+
+    }
+    .gift_txt {
+        font-size: 18px;
+    }
+}

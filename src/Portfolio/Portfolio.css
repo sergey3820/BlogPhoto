@@ -1,0 +1,13 @@
+.portfolio_main {
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1%;
+}
+
+@media only screen and (max-width: 1002px) {
+    .portfolio_main {
+     display: block;
+    }
+
+}

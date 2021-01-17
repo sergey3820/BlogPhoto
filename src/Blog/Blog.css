@@ -1,0 +1,42 @@
+.blog_wrapper {
+    margin-top: 8%;
+}
+
+.blog_container {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 4%;
+}
+
+.blog_search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_place > input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: 1s ease;
+    display: none;
+}
+
+.close_input {
+    display: none;
+}
+
+.blog_all {
+    color: #273A4E;
+    font-size: 18px;
+}
+
+.show {
+    display: block;
+}

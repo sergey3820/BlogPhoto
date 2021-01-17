@@ -1,0 +1,114 @@
+.book_wrapper {
+    width: 85%;
+    margin:auto;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background: #F0F3F6;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+}
+
+.book_name {
+    font-size: 55px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.book_txt_wrapper {
+    width: 85%;
+}
+
+.book_txt {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.book_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+}
+
+
+.sum {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.rub {
+    font-size: 20px;
+}
+
+.price_btn {
+    padding: 8px 40px;
+    font-size: 17px;
+    transition: 0.40s ease;
+}
+
+.price_btn:hover {
+    background-color: #273A4E;
+    border: 1px solid #273A4E;
+    color: #F0F3F6;
+    transition: 0.40s ease;
+}
+
+@media only screen and (max-width: 1036px) {
+    .book_wrapper {
+        display: block;
+    }
+    .book_price {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 834px) {
+    .book_price {
+        width: 60%;
+    }
+
+}
+
+@media only screen and (max-width: 695px) {
+    .book_price {
+        width: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 594px) {
+    .book_price {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 534px) {
+    .book_price {
+        width: 100%;
+    }
+
+    .book_name {
+        font-size: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 433px) {
+     .price_btn {
+         padding: 5px 10px;
+         font-size: 16px;
+     }
+    .sum {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .book_name {
+       font-size: 30px;
+    }
+}

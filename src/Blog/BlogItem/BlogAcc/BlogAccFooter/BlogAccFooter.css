@@ -1,0 +1,58 @@
+.blogFooter_contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blogFooter_saw {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 47%;
+}
+
+.blogFooter_saw > p {
+    font-size: 16px;
+    color: grey;
+}
+
+.heart {
+    cursor: pointer;
+}
+
+.done {
+    background-color: red;
+}
+
+.like_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 669px) {
+    .blogFooter_saw {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 533px) {
+    .blogFooter_saw {
+        width: 80%;
+    }
+
+
+}
+
+@media only screen and (max-width: 406px) {
+    .blogFooter_saw {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 388px) {
+    .blogFooter_saw > p {
+        font-size: 14px;
+    }
+
+
+}
